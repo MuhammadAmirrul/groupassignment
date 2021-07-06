@@ -1,0 +1,171 @@
+﻿body {
+  background-color: Yellow; margin:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: yellow;
+}
+
+.logo-image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 0px;
+    float: left
+}
+
+.developer {
+            text-decoration-line: underline;
+}
+    
+        table { 
+        border-spacing: 100px;
+       
+}
+        
+.card {
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+        transition: 0.0s;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border-radius: 5px;
+
+}
+
+.card img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+  
+.card:hover {
+        box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+        
+        
+}
+  
+.container {
+        padding: 2px 16px;
+        
+}
+
+
+h1{
+        text-align: center;
+
+}
+
+.image{ 
+	position: relative;
+	overflow: hidden;
+        
+}
+
+.image.image1{
+	width: 300px;
+	height: 300px;	
+	float: left;
+	border-radius: 500%;
+	margin: 100px;
+	shape-outside: circle();
+}
+
+p{
+	padding: 20px 25px;
+	color: black;
+	line-height: 1.0cm;
+	font-family: arial;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.image.image2{
+	width: 300px;
+	height: 300px;	
+	float: left;
+	border-radius: 500%;
+	margin: 100px;
+	shape-outside: circle();
+}
+
+p{
+	padding: 20px 25px;
+	color: black;
+	line-height: 1.0cm;
+	font-family: arial;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.image.image3{
+	width: 300px;
+	height: 300px;	
+	float: left;
+	border-radius: 500%;
+	margin: 100px;
+	shape-outside: circle();
+}
+
+p{
+	padding: 20px 25px;
+	color: black;
+	line-height: 1.0cm;
+	font-family: arial;
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+.image.image4{
+	width: 300px;
+	height: 300px;	
+	float: left;
+	border-radius: 500%;
+	margin: 100px;
+	shape-outside: circle();
+}
+
+h5{
+	padding: 10px 15px;
+	color: black;
+	line-height: 0.0cm;
+	font-family: arial;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+p{
+	padding: 0px 0px;
+	color: black;
+	line-height: 0.5cm;
+	font-family: arial;
+	font-size: 20px;
+	text-align: left;
+}
+
